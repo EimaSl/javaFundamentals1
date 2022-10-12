@@ -1,0 +1,12 @@
+Uzduotis:
+
+Sukurti klase CreditCard, kuri turetu laukus, ownerName, balance, pinCode.
+Sukurti klase ATM (bankomatas), kuris turetu laukus brand, cashBalance ir metodus
+boolean isUserAuthenticated(CreditCard creditCard), kuris patikrintu scanerio pagalba,
+ar ivestas pin kodas sutampa su Creditine korteles esanciu kodu (ji priskirsite kortelei sukurdami jos objekta main metodo pradzioje).
+showBalance(CreditCard creditCard) , kuris parodytu kiek pinigu yra userio korteleje.
+addMoney(CreditCard creditCard), kuris leistu inesti pinigu i kortele (atitinkamai padidindamas ir bendra bankomato turimu pinigu kieki)
+withdrawMoney(CreidtCard creditCard), kuris leistu isimti pinigu (naudojant sceneri),
+jei vartotojas tiek ju turi korteleje IR bankomate yra pakankamai casho.
+BankMain klaseje sukurkite korteles objekta ir bankomato objekta, istestuokite visus metodus, patikrinkite validacijas,
+kurias aprasete ATM klaseje.

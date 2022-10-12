@@ -1,0 +1,21 @@
++ Create Father class and Box class.
+
++ Father class must have some fields, to describe how the created object will look like. Eg. Class Father.
+He can have name, age, powerLevel, cashAmount. (use for validation for pocketMoney. Maybe child asks too much?)
+
+The class must have methods such as
+
+Void tellAJoke(String typeOfJoke) -> based of type of joke, use if/else to tell different joke.
+Eg. lightJoke -> tell easy joke, mediumJoke -> tell another.
+Another example -> tellAStory(String storyType) , story can be sad, fun or whatever.
+
+Void method carryBoxToTheBuilding (eg. Carry a Box to 5th floor) Parameters would be Box box, int floorNumber.
+
+Validate if Father can carry the box. if it is not too heavy.
+
+Method which return type is double with one parameter (eg. givePocketMoney).
+
+Ask father for some money to give plus he can add some extra. Use validation with cash.
+
+Method which return type is int with three parameters (eg. Add three numbers). Eg. Help with math task :)
+Methods which have return type, result of the method should be stored in the variable in Main class and printed out separately.

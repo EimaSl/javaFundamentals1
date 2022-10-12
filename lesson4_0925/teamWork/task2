@@ -1,0 +1,21 @@
+Create class ComputerService which would have methods such as
+
+void connectToInternet();
+void sendEmail(String emailBody, String recipient); Bonus: add validation to check if message is not too long. (Tip. use .length() method on string, to get the length of it and validate)
+void multiplyTwoNumbers(double numberOne, double numberTwo);
+void modifyUser(User user) -> this method should update current User data (yes you need to create User object first with some data, then pass it to this method to update the data)
+
+You can also update the sendEmail method by passing User object instead of String recipient, where User object will have a field
+
+BONUS create a method with return type as String and return quote of the day, based on passed parameter
+
+eg. (just do something similar)
+
+public String getQuoteOfTheDay(int number) {
+    if (number == 1) {
+      return "Today is nice!";
+    } else if (number == 2) {
+      return "Today is very very very nice";
+    } else {
+      return "No quotes for today";
+}
