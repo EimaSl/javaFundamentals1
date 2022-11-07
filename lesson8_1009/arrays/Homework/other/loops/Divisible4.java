@@ -1,0 +1,27 @@
+package com.company.javaFundamentals.lesson8_1009.arrays.Homework.other.loops;
+
+public class Divisible4 {
+    public static void main(String[] args) {
+
+        System.out.print("Divisible by 3 = ");
+        for (int i = 1; i < 100; i++) {
+            if (i % 3 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.print('\n'+"Divisible by 5 = ");
+        for (int i = 1; i < 100; i++) {
+            if (i % 5 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+
+        System.out.print('\n'+"Divisible by 3&5 = ");
+        for (int i = 1; i < 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
